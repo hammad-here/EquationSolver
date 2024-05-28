@@ -1,0 +1,129 @@
+html{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to right,#18A5A7,#BFFFC7);
+}
+nav{
+    width: 90vw;
+    height: 12vh;
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+    margin: 0px;
+    padding: auto;
+    background-color: black;
+    z-index: 1;
+    border-radius: 30px;
+    filter: drop-shadow(4px 6px 6px rgb(26, 26, 26));
+}
+button{
+    display: inline;
+    position: relative;
+    border: none;
+    width: 10vw;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-family: "Lato",sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 4vh;
+    height: 6vh;
+    margin: auto;
+    
+}
+#logo{
+    color: white;
+    position: relative; 
+    left: 5vw;
+    top :3vh;
+    font-size:6vh ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 1;
+    cursor: default;
+}
+#navigator{
+    position: relative;
+    left: 40vw;
+    width: 50vw;
+    padding: 0px;
+    margin: 0px;
+    top: -3vh;
+    z-index: 1;
+}
+form{
+    height: 70vh;
+    width: 60vw;
+    text-align: center;
+    margin-top: 12vh;
+    margin-left: 20vw;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(4px 8px 10px rgb(26, 26, 26));
+}
+button:hover{
+    color: rgb(199, 199, 199);
+}
+input{
+    width: 6vw;
+    height: 6vh;
+    text-align: center;
+    border-radius: 7px;
+    border: none;
+    font-size:4vh ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: default;
+    background-color: rgb(207, 207, 207);
+}
+label{
+    position: relative;
+    top: 1.5vh;
+    color: rgb(0, 0, 0);
+    font-size:6vh ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: default;
+}
+
+#solve{
+    position: relative;
+    top: 25vh ;
+    height: 10vh;
+    width: 25vw;
+    font-size:6vh ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0, 156, 94);
+}
+#solve:hover{
+    background-color: rgb(0, 140, 84);
+    color: black;
+}
+#answer{  
+    position: relative;
+    top:10vh ;
+    font-size:6vh ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#theme{
+    border-radius: 50px;
+    background:   linear-gradient(to right,rgb(0, 229, 255),rgb(255, 63, 95));
+    border: none;
+    font-size:4vh ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#theme:hover{
+    color: black;
+}
+h5{
+    position: relative;
+    font-family: "Lato", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 4vh;
+    top: 5vh;
+}
