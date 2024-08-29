@@ -40,7 +40,7 @@ Array.from(document.getElementsByClassName("eqt")).forEach(e=> {
     document.getElementsByTagName("body")[0].append(form)
         form.innerHTML=
         `<h5>WRITE  ${state.toLocaleUpperCase()}  EQUATION </h5>
-        ${eqt} 
+        <div class="equation" >${eqt} </div> 
         <div id="answer">X=${""}</div>
         <button id="solve" type="button">solve</button>`;
      document.getElementById("solve").addEventListener("click",(e)=>{
@@ -82,7 +82,7 @@ function calculate(){
     function cubic(){
         // the fucntion which check if the number is a root
         function checking(num){
-            return !(a*(num**3)+b*(num**2)+c*num + +d)
+            return !(a*(num**3)+b*(num**2)+c*num +d)
         }
     // guessing random number  
     let root=0;
