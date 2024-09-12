@@ -8,13 +8,15 @@ body {
     background-size: cover;
     background-position: center bottom;
     background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
 }
 
 nav {
-    width: 90vw;
+    width: 95vw;
     height: 100px;
     display: flex;
-    margin: 4vh auto;
+    margin:auto;
     justify-content: space-around;
     align-items: center;
     background-color: black;
@@ -47,7 +49,7 @@ button {
 
 #navigator {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     width: 60vw;
 }
 
@@ -115,7 +117,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 label {
     color: rgb(0, 0, 0);
-    font-size: 7px;
+    font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: default;
 }
@@ -148,45 +150,47 @@ h5 {
 
 @media only screen and (orientation: portrait) {
     nav {
-        width: 96vw;
-        height: 225px;
+        width: 95vw;
+        height: 70px;
+        justify-content: space-around;
     }
 
     #logo {
-        font-size: 100px;
+        font-size: 23px;
+        width: 80px;
     }
 
     button {
-        font-size: 65px;
-        width: 120px;
-        height: 100px;
+        font-size: 15px;
+        height: 30px;
     }
 
     #theme {
-        font-size: 65px;
-    }
-
-    .navigator {
-        justify-content: space-between;
-    }
-
-    label {
-        font-size: 125px;
-    }
-
-    input {
-        height: 125px;
         font-size: 20px;
     }
 
+    #navigator {
+        justify-content: space-between;
+        width: 65vw;
+    }
+
+    label {
+        font-size: 35px;
+    }
+
+    input {
+        height: 35px;
+        font-size: 30px;
+    }
+
     form {
-        height: 386px;
-        width: 272px;
+        height: 450px;
+        width: 300px;
     }
 
     #solve {
-        height: 1930vh;
-        width: 46vw;
+        height: 80px;
+        width: 50vw;
         font-size: 5vh;
     }
 
