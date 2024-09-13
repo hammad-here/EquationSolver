@@ -156,17 +156,17 @@ h5 {
     }
 
     #logo {
-        font-size: 23px;
+        font-size: 15px;
         width: 80px;
     }
 
     button {
-        font-size: 15px;
+        font-size: 10px;
         height: 30px;
     }
 
     #theme {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     #navigator {
@@ -190,7 +190,7 @@ h5 {
 
     #solve {
         height: 80px;
-        width: 50vw;
+        width: 250px;
         font-size: 5vh;
     }
 
